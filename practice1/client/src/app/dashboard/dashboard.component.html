@@ -1,0 +1,26 @@
+<section>
+    <div class="row" style="height: 100vh">
+        <div class="col-lg-2 col-md-3 bg-dark text-light">
+            <ul class="sidebar my-3">Subject
+                <li>
+                    <a class="text-decoration-none text-light" routerLink="addSubject" routerLinkActive="active">Add</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-light" routerLink="getSubjects" routerLinkActive="active">Subjects</a>
+                </li>
+            </ul>
+
+            <ul class="sidebar my-3">Book
+                <li>
+                    <a class="text-decoration-none text-light" routerLink="addBook" routerLinkActive="active">Add</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-light" routerLink="getBooks" routerLinkActive="active">Books</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 col-md-9 bg-light">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</section>

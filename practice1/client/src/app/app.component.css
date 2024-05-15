@@ -1,0 +1,4 @@
+@import 'ngx-toastr/toastr';
+.content{
+    margin-top: 60px;
+}

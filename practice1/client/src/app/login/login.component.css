@@ -1,0 +1,17 @@
+.heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.error{
+    font-size: 15px;
+}
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
+  .link{
+    color: rgb(93, 160, 202);
+    margin: 0 5px;
+}
+.link:hover{
+    color:brown;
+}

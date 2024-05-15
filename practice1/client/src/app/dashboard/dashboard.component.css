@@ -1,0 +1,9 @@
+.sidebar li{
+    list-style-type: none;
+    margin: 2px 25px;
+    padding: 8px 2px;
+    border-bottom: 1px solid rgb(96, 94, 94);
+}
+.active{
+    color: rgb(80, 157, 245) !important;
+}
